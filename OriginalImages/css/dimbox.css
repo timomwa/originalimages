@@ -1,0 +1,30 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+div.white_content{
+	border:10px solid #cccccc;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1%;
+	background-color:#ffffff;
+	_position:fixed; /* hack for internet explorer 6*/
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	 -khtml-border-radius:15px;
+	  border-radius:15px;
+}
+
+div.white_bg{
+	background-color:#CCCCCC;
+	height:100%;
+	left:0;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:1;
+}

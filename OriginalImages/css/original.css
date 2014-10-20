@@ -1,0 +1,349 @@
+@charset "utf-8";
+/**
+* Copyright (c) 2011 http://www.pixelandtag.com
+* "Original Images Project"
+* Date: 2011-06-10
+* Ver 1.0
+* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+*
+* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+* ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+* WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+* IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, 
+* INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+* PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+* INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+* STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF 
+* THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*
+* http://www.opensource.org/licenses/bsd-license.php
+*/
+.thumb {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+
+.clean {
+	clear: both;
+}
+
+#album_div {
+	background-color: #0099cc;
+	padding: 5px;
+	width: 1000px;
+	min-height: 250px;
+}
+
+.lefters {
+	float: left;
+}
+
+#expanded_photo {
+	border: 1px solid red;
+	width: 800px;
+	float: left;
+}
+
+#thumbnails_div {
+	border: 1px solid black;
+	height: 210px !important;
+	width: 100px !important;
+	margin-left: 8px;
+	padding: 2px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#album_names {
+	margin-top: 50px;
+	margin-left: 8px;
+	border: 1px solid green;
+}
+
+.thumb {
+	width: 80px;
+	height: 70px;
+}
+
+.oiditorbutton {
+	width: 27px;
+	height: 15px;
+	float: left;
+	
+}
+
+.oiclear {
+	clear: both;
+}
+
+.puthere { 
+	padding: 0px;
+	font-size: 10px;
+	float: right;
+	color: #2B3856;
+}
+
+.oipointers {
+	cursor: pointer;
+}
+
+.oismallLinks {
+	font-size: 10px;
+	color: #357EC7;
+	cursor: pointer;
+}
+
+
+.oiformDiv2{
+	font-size: 13px;
+	color: #357EC7;
+	cursor: pointer;
+}
+
+
+.oismallLinks:hover {
+	
+}
+
+#editorSpan {
+	height: 17px;
+	width: 400px;
+	padding: 2px 2px 0px 2px;
+}
+
+.albumEdit {
+	font-size: 11px;
+	line-height: 13px;
+	margin: 0px;
+	padding: 0px;
+	width: 290px;
+	resize: none;
+}
+
+.albumEdit2 {
+	font-size: 11px;
+	height: 18px;
+	line-height: 13px;
+	margin: 3px;
+	padding: 0px;
+	resize: none;
+}
+
+.oidivo {
+	border: 1px solid #848484;
+	background-color: #FFFFFF;
+	width: 900px;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-topright: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-khtml-border-radius-bottomleft: 15px;
+	-khtml-border-radius-bottomright: 15px;
+	-khtml-border-radius-topright: 15px;
+	padding: 10px;
+}
+
+#mainTabber {
+	width: 800px;
+	margin: auto;
+}
+
+.oiimageDiv {
+	border: 1px solid red;
+	margin: 5px;
+	border: 1px solid #D8DFEA;
+	background-color: #FfFfFf;
+	padding: 10px;
+}
+
+.oiimageDiv textarea {
+	border: 1px solid #BDC7D8;
+	overflow: hidden;
+	height: 70px;
+	width: 350px;
+	margin: 5px;
+	padding: 5px; 
+}
+
+.topleft {
+	position: relative;
+	margin-left: 0px;
+	color: #666666;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+}
+
+.oifivePixPadding {
+	padding: 5px;
+}
+
+.oiimgdiv { 
+	padding: 2px;
+}
+
+.lefters {
+	float: left;
+}
+
+.righters {
+	float: right;
+}
+
+.clearers {
+	clear: both;
+}
+
+.niceFont {
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	color: #666666;
+	font-size: 11px;
+	position: relative;
+	margin-left: 0px;
+	margin: 5px;
+}
+
+.oioverdiv {
+	background: none repeat scroll 0 0 #F7F7F7;
+	padding: 10px;
+	border: 1px solid #D7D7D7;
+}
+
+.oicovercheck {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding: 1px;
+	margin-top: 5px;
+	text-align: left;
+	color: #333333;
+	width: 146px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+}
+
+.oicovercheck2 {
+	padding: 1px;
+	margin-top: 5px;
+	text-align: left;
+	color: #333333;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+}
+
+.oicovercheck select {
+	border: 1px solid #BDC7D8;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	padding: 2px;
+	width: 100%;
+}
+
+.oithumb {
+	float: right;
+	width: 150px;
+}
+
+.fblikeButton {
+	background: none repeat scroll 0 0 transparent;
+	border: 0px none;
+	color: #333333;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0;
+	outline: medium none;
+	padding: 1px 0 2px;
+	white-space: nowrap;
+}
+
+.fbuiButton {
+	background-color: #5B74A8;
+	background-image: url("../images/wBBYAgOjf8k.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	border-color: #29447E #29447E #1A356E;
+}
+
+.fbinput {
+	background: none repeat scroll 0 0 transparent;
+	border: 0 none;
+	color: #333333;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0;
+	outline: medium none;
+	padding: 1px 0 2px;
+	white-space: nowrap;
+}
+
+.uiButtonConfirm {
+	background-color: #5B74A8;
+	background-image: url("../images/wBBYAgOjf8k.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	border-color: #29447E #29447E #1A356E;
+}
+
+.uiButton,.uiButtonSuppressed:active,.uiButtonSuppressed:focus,.uiButtonSuppressed:hover
+	{
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #EEEEEE;
+	background-image: url("../images/6N9FQPpTHCy.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	border-color: #999999 #999999 #888888;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+/* iframe {
+	display: none;
+}
+ */
+.error {
+	
+}
+
+.input {
+	border: 1px solid #BDC7D8;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	padding: 2px;
+	width: 100%;
+}
+
+.nodec {
+	text-decoration: none;
+	color: #333333 !important;
+}
+
+.raisedabit {
+	margin-bottom: 15px !important;
+}
+ 
